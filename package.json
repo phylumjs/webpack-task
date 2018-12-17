@@ -1,0 +1,31 @@
+{
+	"name": "@phylum/webpack-task",
+	"version": "1.0.0",
+	"description": "Webpack pipeline task",
+	"main": "lib",
+	"scripts": {
+		"test": "nyc -- ava --verbose",
+		"dev": "ava --watch --verbose",
+		"report-coverage": "nyc report --reporter=text-lcov | coveralls"
+	},
+	"devDependencies": {
+		"@phylum/pipeline": "^1.2.0",
+		"ava": "^1.0.1",
+		"fs-extra": "^7.0.1",
+		"nyc": "^13.1.0",
+		"tmp": "0.0.33",
+		"webpack": "^4.27.1"
+	},
+	"peerDependencies": {
+		"@phylum/pipeline": "^1.0.0",
+		"webpack": "^3.11.0"
+	},
+	"nyc": {
+		"reporter": [
+			"text",
+			"text-summary"
+		]
+	},
+	"author": "Max J. Polster",
+	"license": "MIT"
+}
