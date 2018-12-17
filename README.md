@@ -8,8 +8,9 @@ A pipeline task that bundles code using webpack.
 
 ## Installation
 ```bash
-npm i @phylum/webpack-task
+npm i @phylum/webpack-task webpack
 ```
+*Supported webpack versions range from 3.11.0 to 4.x.x*
 
 # Usage
 ```js

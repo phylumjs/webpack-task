@@ -19,7 +19,7 @@
 	},
 	"peerDependencies": {
 		"@phylum/pipeline": "^1.0.0",
-		"webpack": "^3.11.0"
+		"webpack": "3.11.0 - 4.x.x"
 	},
 	"nyc": {
 		"reporter": [
