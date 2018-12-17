@@ -27,6 +27,7 @@
 			"text-summary"
 		]
 	},
+	"repository": "github:phylumjs/webpack-task",
 	"author": "Max J. Polster",
 	"license": "MIT"
 }
