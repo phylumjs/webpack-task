@@ -24,7 +24,7 @@ const webpackTask = createWebpackTask(config[, webpack])
 + webpack `<webpack>` - Optional. Specify a specific webpack module to use instead of the default installed one.
 
 ### Integration
-The webpack task can be used like a pipeline task function.<br/>
+The webpack task can be used like a pipeline task.<br/>
 It will resolve to the webpack stats emitted by the compiler. In case of a critical compiler error, the task will reject with that error.
 ```js
 const webpackTask = createWebpackTask({
