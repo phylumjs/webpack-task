@@ -18,9 +18,9 @@ const createWebpackTask = require('@phylum/webpack-task')
 // Create a new pipeline task:
 const webpackTask = createWebpackTask(config[, webpack])
 ```
-+ config `<webpack.Compiler> | <object> | <function>` - This can be a webpack compiler, a webpack config or a function that creates one of them.
++ config `<webpack.Compiler> | <object> | <function>` - This can be a webpack compiler, a webpack config or a function that creates one of these.
 	+ ctx `<Context>` - The pipeline context of the webpack task is passed with the first argument.
-	+ return `<webpack.Compiler> | <object> | <Promise>` - Return a webpack compiler, config or a promise that resolves to one of them.
+	+ return `<webpack.Compiler> | <object> | <Promise>` - Return a webpack compiler, config or a promise that resolves to one of these.
 + webpack `<webpack>` - Optional. Specify a specific webpack module to use instead of the default installed one.
 
 ### Integration
