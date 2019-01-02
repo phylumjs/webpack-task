@@ -1,6 +1,6 @@
 {
 	"name": "@phylum/webpack-task",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Webpack pipeline task",
 	"main": "lib",
 	"scripts": {
