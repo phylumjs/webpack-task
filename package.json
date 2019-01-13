@@ -9,7 +9,7 @@
 		"report-coverage": "nyc report --reporter=text-lcov | coveralls"
 	},
 	"devDependencies": {
-		"@phylum/pipeline": "^1.2.0",
+		"@phylum/pipeline": "^2.0.1",
 		"ava": "^1.0.1",
 		"coveralls": "^3.0.2",
 		"fs-extra": "^7.0.1",
@@ -18,7 +18,7 @@
 		"webpack": "^4.27.1"
 	},
 	"peerDependencies": {
-		"@phylum/pipeline": "^1.0.0",
+		"@phylum/pipeline": "^2.0.0",
 		"webpack": "3.11.0 - 4.x.x"
 	},
 	"nyc": {
