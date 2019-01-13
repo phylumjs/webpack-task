@@ -1,6 +1,6 @@
 {
 	"name": "@phylum/webpack-task",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Webpack pipeline task",
 	"main": "lib",
 	"scripts": {
@@ -10,12 +10,12 @@
 	},
 	"devDependencies": {
 		"@phylum/pipeline": "^2.0.1",
-		"ava": "^1.0.1",
+		"ava": "^1.1.0",
 		"coveralls": "^3.0.2",
 		"fs-extra": "^7.0.1",
 		"nyc": "^13.1.0",
 		"tmp": "0.0.33",
-		"webpack": "^4.27.1"
+		"webpack": "^4.28.4"
 	},
 	"peerDependencies": {
 		"@phylum/pipeline": "^2.0.0",
