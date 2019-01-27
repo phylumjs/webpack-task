@@ -4,7 +4,7 @@ const test = require('ava')
 const path = require('path')
 const fs = require('fs-extra')
 const webpack = require('webpack')
-const Pipeline = require('@phylum/pipeline')
+const {Pipeline, Context} = require('@phylum/pipeline')
 const createTask = require('..')
 const tmpdir = require('./_tmpdir')
 
@@ -38,7 +38,7 @@ test('config with compiler', t => tmpdir(async output => {
 
 test('config with function (return config)', t => tmpdir(async output => {
 	const pipeline = new Pipeline(createTask(async ctx => {
-		t.true(ctx instanceof Pipeline.Context)
+		t.true(ctx instanceof Context)
 		return createTestConfig(output)
 	}))
 	const stats = await pipeline.enable()
@@ -48,7 +48,7 @@ test('config with function (return config)', t => tmpdir(async output => {
 
 test('config with function (return compiler)', t => tmpdir(async output => {
 	const pipeline = new Pipeline(createTask(async ctx => {
-		t.true(ctx instanceof Pipeline.Context)
+		t.true(ctx instanceof Context)
 		return webpack(createTestConfig(output))
 	}))
 	const stats = await pipeline.enable()

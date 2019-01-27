@@ -9,13 +9,13 @@
 		"report-coverage": "nyc report --reporter=text-lcov | coveralls"
 	},
 	"devDependencies": {
-		"@phylum/pipeline": "^2.0.1",
+		"@phylum/pipeline": "^3.0.0",
 		"ava": "^1.1.0",
 		"coveralls": "^3.0.2",
 		"fs-extra": "^7.0.1",
 		"nyc": "^13.1.0",
 		"tmp": "0.0.33",
-		"webpack": "^4.28.4"
+		"webpack": "^4.29.0"
 	},
 	"peerDependencies": {
 		"@phylum/pipeline": "^2.0.0",
